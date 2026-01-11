@@ -10,11 +10,6 @@ if len(sys.argv) < 2:
     exit(0)
 
 current_handle = sys.argv[1]
-#key: 9be0250534a4df6eedb7d5e06530d02c23520c64
-#secret: a52ee49173b1a7b97226cb613a7b31f98eb52ffd
-
-# key='9be0250534a4df6eedb7d5e06530d02c23520c64'
-# secret='a52ee49173b1a7b97226cb613a7b31f98eb52ffd'
 
 cfg = ApiConfig()
 
