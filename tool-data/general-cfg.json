@@ -1,0 +1,218 @@
+{
+  "interfaceCfg": {
+    "text_color": "\u001b[37m",
+    "text_background": "\u001b[49m",
+    "success_color": "\u001b[32m",
+    "success_background": "\u001b[49m",
+    "error_color": "\u001b[31m",
+    "error_background": "\u001b[49m",
+    "system_color": "\u001b[36m",
+    "system_background": "\u001b[49m",
+    "warning_color": "\u001b[33m",
+    "warning_background": "\u001b[49m",
+    "highlight_files": true,
+    "command_color": "SpringGreen",
+    "file_color": "OrangeRed",
+    "regular_color": "Wheat",
+    "flag_color": "HotPink"
+  },
+  "cfConfig": {
+    "handle": "160cm",
+    "friend_handles": [],
+    "current_contest": {
+      "contest_id": "1760",
+      "problem_list": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "problem_data": [
+        {
+          "index": "A",
+          "interactive": false,
+          "input": [
+            "9\n5 2 6\n14 3 4\n20 2 1\n1 2 3\n11 19 12\n10 8 20\n6 20 3\n4 1 3\n19 8 4"
+          ],
+          "output": [
+            [
+              "5",
+              "4",
+              "2",
+              "2",
+              "12",
+              "10",
+              "6",
+              "3",
+              "8"
+            ]
+          ],
+          "time_limit": 1.0,
+          "memory_limit": 256,
+          "sample_count": 1
+        },
+        {
+          "index": "B",
+          "interactive": false,
+          "input": [
+            "5\n1\na\n4\ndown\n10\ncodeforces\n3\nbcf\n5\nzzzzz"
+          ],
+          "output": [
+            [
+              "1",
+              "23",
+              "19",
+              "6",
+              "26"
+            ]
+          ],
+          "time_limit": 1.0,
+          "memory_limit": 256,
+          "sample_count": 1
+        },
+        {
+          "index": "C",
+          "interactive": false,
+          "input": [
+            "5\n4\n4 7 3 5\n2\n1 2\n5\n1 2 3 4 5\n3\n4 9 4\n4\n4 4 4 4"
+          ],
+          "output": [
+            [
+              "-3 2 -4 -2",
+              "-1 1",
+              "-4 -3 -2 -1 1",
+              "-5 5 -5",
+              "0 0 0 0"
+            ]
+          ],
+          "time_limit": 2.0,
+          "memory_limit": 256,
+          "sample_count": 1
+        },
+        {
+          "index": "D",
+          "interactive": false,
+          "input": [
+            "6\n7\n3 2 2 1 2 2 3\n11\n1 1 1 2 3 3 4 5 6 6 6\n7\n1 2 3 4 3 2 1\n7\n9 7 4 6 9 9 10\n1\n1000000000\n8\n9 4 4 5 9 4 9 10"
+          ],
+          "output": [
+            [
+              "YES",
+              "YES",
+              "NO",
+              "YES",
+              "YES",
+              "NO"
+            ]
+          ],
+          "time_limit": 2.0,
+          "memory_limit": 256,
+          "sample_count": 1
+        },
+        {
+          "index": "E",
+          "interactive": false,
+          "input": [
+            "5\n4\n1 0 1 0\n6\n0 1 0 0 1 0\n2\n0 0\n8\n1 0 1 1 0 0 0 1\n3\n1 1 1"
+          ],
+          "output": [
+            [
+              "3",
+              "7",
+              "1",
+              "13",
+              "2"
+            ]
+          ],
+          "time_limit": 2.0,
+          "memory_limit": 256,
+          "sample_count": 1
+        },
+        {
+          "index": "F",
+          "interactive": false,
+          "input": [
+            "6\n2 5 4\n1 2\n2 20 10\n100 10\n3 100 3\n7 2 6\n4 20 3\n4 5 6 7\n4 100000000000 2022\n8217734 927368 26389746 627896974\n2 20 4\n5 1"
+          ],
+          "output": [
+            [
+              "2",
+              "Infinity",
+              "Impossible",
+              "1",
+              "12",
+              "0"
+            ]
+          ],
+          "time_limit": 3.0,
+          "memory_limit": 256,
+          "sample_count": 1
+        },
+        {
+          "index": "G",
+          "interactive": false,
+          "input": [
+            "3\n5 1 4\n1 3 1\n2 3 2\n4 3 3\n3 5 1\n2 1 2\n1 2 2\n6 2 3\n1 2 1\n2 3 1\n3 4 1\n4 5 3\n5 6 5"
+          ],
+          "output": [
+            [
+              "YES",
+              "NO",
+              "YES"
+            ]
+          ],
+          "time_limit": 2.0,
+          "memory_limit": 256,
+          "sample_count": 1
+        }
+      ],
+      "current_problem_index": "B"
+    }
+  },
+  "apiConfig": {
+    "key": "",
+    "secret": "",
+    "timeout": 10
+  },
+  "runCfg": {
+    "runOptionList": [
+      {
+        "alias": "main",
+        "option": {
+          "buildErrorLines": 10,
+          "time_limit": 5.0,
+          "memory_limit": 200000,
+          "output_file_size_limit": 16384,
+          "input_file_path": "/home/illia/Desktop/tool/logs/log.txt",
+          "output_file_path": "",
+          "build_command": "g++ $FILENAME",
+          "build_args": "-std=c++20 -fdiagnostics-color=always -fmax-errors=2 -o $FILENAME.out",
+          "run_command": "/$FILENAME.out",
+          "run_args": "",
+          "cleanup_command": "rm $FILENAME.out",
+          "runner_poll_time": 0.05
+        }
+      }
+    ],
+    "currentRunOption": {
+      "buildErrorLines": 10,
+      "time_limit": 5.0,
+      "memory_limit": 200000,
+      "output_file_size_limit": 16384,
+      "input_file_path": "/home/illia/Desktop/tool/logs/log.txt",
+      "output_file_path": "",
+      "build_command": "g++ $FILENAME",
+      "build_args": "-std=c++20 -fdiagnostics-color=always -fmax-errors=2 -o $FILENAME.out",
+      "run_command": "/$FILENAME.out",
+      "run_args": "",
+      "cleanup_command": "rm $FILENAME.out",
+      "runner_poll_time": 0.05
+    },
+    "currentRunAlias": "main"
+  },
+  "unix": true,
+  "directory": "/home/illia/Desktop/tool"
+}
